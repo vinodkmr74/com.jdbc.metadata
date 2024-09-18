@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    
+    <class name="jdbc.metadata.stusent.Student22" table="Acg_student">
+    <id name="id" column="s_id" >
+   <generator class="identity"></generator>
+    
+    </id> 
+    <property name="name" column="s_name"></property>
+    <property name="department" column="s_department"></property>
+    </class>
+    
+    
+    
+    
+    
+    </hibernate-mapping>
